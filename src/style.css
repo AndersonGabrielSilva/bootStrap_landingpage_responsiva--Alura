@@ -5,3 +5,13 @@
 .cor-especial {
     color: darkred;
 }
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+    border-color: darkred;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
