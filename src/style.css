@@ -1,3 +1,20 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel-um {
+   /*Informa como que o elemento deve se comportar em relação ao seu proprio conteiner*/
+    object-fit: cover;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+ /*Informa como que o elemento deve se comportar em relação ao seu proprio conteiner*/
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
 .fonte-titulo{
     font-family: 'Pacifico', cursive;
 }
@@ -15,3 +32,15 @@
 .borda-cor-especial {
     border-color: darkred;
 }
+
+.card-imagem {
+    width: 18rem;
+    object-fit:cover;
+    object-position: 0 60%;
+}
+
+.card-imagem-top {
+    height:200px;
+    object-fit:cover;
+    object-position: 0 60%;
+  }
